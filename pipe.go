@@ -314,7 +314,7 @@ func makeServerPipeHandle(path string, sd []byte, c *PipeConfig, first bool) (sy
 		}
 	}
 
-	typ := 0
+	typ := uint32(0)
 	if c.MessageMode {
 		typ |= cFILE_PIPE_MESSAGE_TYPE
 	}
