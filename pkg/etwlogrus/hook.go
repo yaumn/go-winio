@@ -5,8 +5,8 @@ package etwlogrus
 import (
 	"sort"
 
-	"github.com/Microsoft/go-winio/pkg/etw"
 	"github.com/sirupsen/logrus"
+	"github.com/yaumn/go-winio/pkg/etw"
 )
 
 // Hook is a Logrus hook which logs received events to ETW.

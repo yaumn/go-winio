@@ -4,7 +4,7 @@
 package etw
 
 import (
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/yaumn/go-winio/pkg/guid"
 	"golang.org/x/sys/windows"
 )
 
